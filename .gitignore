@@ -23,3 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 /Classwork/chapter1/node_modules/
+/Classwork/chapter2/node_modules/
+/Classwork/chapter3/chapter3/node_modules/
+/Classwork/chapter4/chapter4/node_modules/
+/Classwork/chapter5/node_modules/
+/Classwork/chapter6/node_modules/
