@@ -47,8 +47,10 @@ class Rating extends Component {
 
 export default Rating;
 
-const styles={
-    starStyle:{
-    color: 'orange'
+const styles = {
+    starStyle: {
+        color: 'orange'
     }
-   }
+}
+
+//{this.props.numOfReviews}
