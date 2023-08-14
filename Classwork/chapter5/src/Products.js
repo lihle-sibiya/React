@@ -12,14 +12,14 @@ class Products extends Component {
             // </div>
 
 
-            //Inline If with && Operator
+            //5.1 Inline If with && Operator
             // <div>
             //     {listProducts.length > 0 &&
             //         <ul>{listProducts}</ul>
             //     }
-            //     {listProducts.length == 0 &&
-            //         <ul>No Products to display</ul>
-            //     }
+            // //     {listProducts.length == 0 &&
+            //          <ul>No Products to display</ul>
+            //   }
             // </div>
 
 
