@@ -3,6 +3,7 @@ import Rating from './Rating';
 import { Card } from 'react-bootstrap';
 
 class Product extends Component {
+    // eslint-disable-next-line 
     constructor(props) {
         super(props)
     }
