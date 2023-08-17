@@ -25,7 +25,7 @@ class Header extends Component {
               <Nav className="mr-auto">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/github">GitHub</Nav.Link>
-                {/*<Nav.Link href="/contact">Contact</Nav.Link>*/}
+                <Nav.Link href="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -33,8 +33,8 @@ class Header extends Component {
             <Route path="/github/user/:login/:id" component={GitHubUser} />
             <Route path="/github" component={GitHub} />
             <Route exact path="/" component={Home} />
+            <Route path="/contact" component={Contact} />
             <Route path="/*" component={NotFound} />
-            {/*<Route exact path="/contact" component={Contact} />*/}
           </Switch>
         </div>
       </BrowserRouter>
@@ -51,22 +51,21 @@ class Home extends Component {
     )
   }
 }
+
+// eslint-disable-next-line 
+class Contact extends Component {
+  render() {
+    return (
+      <div>
+        Contact us for more information
+      </div>
+    )
+  }
+}
 class NotFound extends Component {
   render() {
     return <div>Not Found</div>
   }
 }
-
-// eslint-disable-next-line 
-{/*class Contact extends Component {
-  render() {
-    return (
-      <div>
-        Contact us
-      </div>
-    )
-  }
-}}*/}
-
 
 export default App;
