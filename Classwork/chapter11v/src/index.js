@@ -1,10 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import cartReducer from "./reducer";
+import reportWebVitals from './reportWebVitals';
+
 
 var destination = document.querySelector("#container");
 
@@ -16,3 +18,6 @@ ReactDOM.render(
   </Provider>,
   destination
 );
+
+reportWebVitals();
+
